@@ -1,0 +1,48 @@
+body {
+	background-image: url(../images/bg-desktop.svg);
+	background-color: #674BB1;
+	color: #fff;
+}
+
+.myButton {
+	box-shadow: 0px 0px 10px -2px #4e3988;
+	background-color:#ffffff;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#6f5f9e;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 76px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background-color:#ffffff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+/*Header Section*/
+#header {
+	padding: 5% 3%;
+
+}
+#header img {
+	width: 100%;
+}
+.Community {
+	/*padding: 5% 8% 5% 8%;*/
+	line-height: 29px;
+}
+
+footer {
+	text-align: center;
+}
+@media (max-width:768px ) {
+	.Community {
+		text-align: center;
+		padding: 10% 2% 9%;
+	}
+}
