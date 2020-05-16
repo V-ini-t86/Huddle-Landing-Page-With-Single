@@ -33,7 +33,7 @@ body {
 	width: 100%;
 }
 .Community {
-	/*padding: 5% 8% 5% 8%;*/
+	padding: 5% 8% 5% 8%;
 	line-height: 29px;
 }
 
@@ -43,6 +43,13 @@ footer {
 @media (max-width:768px ) {
 	.Community {
 		text-align: center;
-		padding: 10% 2% 9%;
+		padding: 10% 2%;
 	}
+}
+
+@media (max-width: 576px) {
+	.Community h1{
+		width: 100%;
+	}
+	
 }
